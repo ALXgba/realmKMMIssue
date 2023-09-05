@@ -39,7 +39,7 @@ kotlin {
         val commonMain by getting {
             dependencies {
                 //put your multiplatform dependencies here
-                implementation("io.realm.kotlin:library-sync:1.7.0")
+                implementation("io.realm.kotlin:library-sync:1.11.0")
             }
         }
         val commonTest by getting {
